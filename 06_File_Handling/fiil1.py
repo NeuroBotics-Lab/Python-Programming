@@ -1,0 +1,1 @@
+print("All python file handling concepts")

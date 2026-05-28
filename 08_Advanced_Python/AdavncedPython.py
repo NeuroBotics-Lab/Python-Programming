@@ -1,0 +1,1 @@
+print("All advanced python concepts")
