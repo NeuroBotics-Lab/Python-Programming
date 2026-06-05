@@ -1908,121 +1908,209 @@ print(abs(0.1 + 0.2 - 0.3) < 1e-9)  # ✅ Correct comparison
 10. What naming convention is used for constants in Python?
 
 **Operations:**
+
+
 11. Calculate the area of a rectangle with length 12 and width 7.
+
 12. Calculate 2 raised to the power of 8.
+
 13. Find the remainder when 100 is divided by 7.
+
 14. What is `10 // 3`? What is `10 / 3`? What's the difference?
+
 15. Calculate the average of 85, 90, 78, 92.
+
 16. Convert 100 degrees Celsius to Fahrenheit (formula: F = C × 9/5 + 32).
+
 17. Calculate the simple interest: P=1000, R=5, T=3 (SI = P×R×T/100).
+
 18. What is `True + True + True`?
+
 19. What is `not (5 > 3)`?
+
 20. What is `5 == 5 and 3 > 2`?
 
 **Strings:**
+
 21. Create a string "Hello, Python!" and find its length using `len()`.
+
 22. Extract the first character of the string "Programming".
+
 23. Extract the last character of "Python" using negative indexing.
+
 24. Reverse the string "Hello" using slicing.
+
 25. Convert "python" to uppercase.
+
 26. Convert "HELLO WORLD" to title case.
+
 27. Count how many times 'l' appears in "Hello, World!".
+
 28. Replace "World" with "Python" in "Hello, World!".
+
 29. Split "apple,orange,banana" by comma.
+
 30. Join ["Hello", "World"] with a space.
 
 **Input/Output:**
+
 31. Write a program that asks for user's name and greets them.
+
 32. Write a program that takes two numbers and prints their sum.
+
 33. Print numbers 1 to 5 on the same line separated by spaces.
+
 34. Print "Name: Alice" right-aligned in a field of width 20.
+
 35. Format the number 3.14159 to 2 decimal places.
 
 **Type Casting:**
+
 36. Convert the string "42" to an integer.
+
 37. Convert the integer 100 to a float.
+
 38. Convert the float 9.99 to integer (what happens to .99?).
+
 39. What does `bool("")` return?
+
 40. What does `bool(0.001)` return?
 
 ---
 
-### 🟡 Medium (40 Questions)
+### 🟡 Medium (40 Questions) ------>>>>>>>>
 
 41. Write a program that calculates the BMI (weight / height²).
+
 42. Check if a number is even using the modulus operator.
+
 43. Swap two variables without using a third variable.
+
 44. Given `name = "  Alice  "`, remove whitespace and print uppercase.
+
 45. Extract domain from `"user@example.com"` using `split()`.
+
 46. Check if a string is a palindrome using slicing.
+
 47. Count vowels in a string using `count()` for each vowel.
+
 48. Format a receipt: item name left-aligned, price right-aligned, total 30 chars wide.
+
 49. Convert temperature program: ask user, convert C↔F based on input.
+
 50. Write a simple calculator taking two numbers and an operator (+,-,*,/).
 
-**Memory and Types:**
+**Memory and Types:**------>>>>>>>
+
 51. What is the difference between `is` and `==`? Give an example.
+
 52. Create two strings with same content. Are they `is` equal? Are they `==` equal?
+
 53. What does `id()` return? How does it relate to memory?
+
 54. Demonstrate Python integer caching with numbers 100 and 1000.
+
 55. Why is `bool` a subclass of `int` in Python?
 
-**String Operations:**
+**String Operations:**----->>>>>>
+
 56. Given a full name "John Michael Smith", extract first and last name.
+
 57. Check if a password is strong: at least 8 chars, has digit, has letter.
+
 58. Count words in a sentence using `split()`.
+
 59. Create a Caesar cipher: shift each letter by 1 position.
+
 60. Format a table with 3 columns: Name, Age, Score.
 
-**Operators:**
+**Operators:**----->>>>>>
+
 61. Use bitwise operators to check if a number is even (hint: `n & 1`).
+
 62. Use left shift to multiply 5 by 8 (hint: `5 << 3`).
+
 63. What is `255 & 0xF0`? What does this do?
+
 64. Calculate compound interest: A = P(1 + r/n)^(nt).
+
 65. Write expression to check if a number is between 1 and 100 (inclusive).
 
-**Debugging:**
+**Debugging:**------>>>>>>
 66. Fix: `nme = input(Enter name: )`
+
 67. Fix: `print(10 / 0)`
+
 68. Fix: `age = input("Age: "); print(age + 1)`
+
 69. Find the logical error: `area = length + width` (should be area of rectangle)
+
 70. Fix: `print("Result: " + 42)`
 
-**Advanced Easy:**
+**Advanced Easy:**----->>>>>>>>
+
 71. What is the output? `print(type(type(42)))`
+
 72. What is the output? `print("Hello" * 3)`
+
 73. What is the output? `print(10 ** 0)`
+
 74. What is the output? `print("" or "default")`
+
 75. What is the output? `print(None or "fallback")`
+
 76. Create an f-string that shows: `"Pi is approximately 3.14"` from `pi = 3.14159`.
+
 77. What does `\n` do in a string? Give an example.
+
 78. What is a raw string? When do you use it?
+
 79. Explain string interning with an example.
+
 80. What is the difference between `find()` and `index()`?
 
 ---
 
-### 🔴 Advanced (20 Questions)
+### 🔴 Advanced (20 Questions) ---->>>>>>>
 
 81. Implement a string encode/decode using `maketrans()` and `translate()`.
+
 82. Given a list of names `["alice", "bob", "charlie"]`, join them formatted as "Alice, Bob, and Charlie".
+
 83. Write a program that validates a simple email format (has @ and a dot after @).
+
 84. Implement `center()` manually using string concatenation.
+
 85. Calculate the sum of digits of a number using string conversion.
+
 86. Given a paragraph, find the 3 most common characters.
+
 87. Explain and demonstrate the difference between mutable and immutable with memory addresses.
+
 88. Why does `0.1 + 0.2 != 0.3`? How do you fix it?
+
 89. Implement a function to check if a string is an anagram of another.
+
 90. Demonstrate operator short-circuiting with side effects.
+
 91. What is the output of `print(0.1 + 0.2 + 0.3 == 0.6)`? Why?
+
 92. Explain Python's LEGB scope rule with examples.
+
 93. What is the GIL (Global Interpreter Lock)?
+
 94. How does Python garbage collect reference cycles?
+
 95. Demonstrate implicit type promotion from int → float → complex.
+
 96. Write a program converting any number to binary, octal, and hex.
+
 97. Explain why `bool` inheriting from `int` is useful in practice.
+
 98. Build a simple progress bar using `print()` with `end='\r'`.
+
 99. What is string interning and how can you force it with `sys.intern()`?
+
 100. Explain CPython's memory allocator and why Python uses memory pools.
 
 ---
