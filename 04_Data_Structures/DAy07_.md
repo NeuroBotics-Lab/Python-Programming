@@ -54,7 +54,7 @@
 ### 🗺️ Python Foundation Mind Map
 
 ```mermaid
-mindmap
+  mindmap
   root((Python<br/>Foundation))
   
   Day01
