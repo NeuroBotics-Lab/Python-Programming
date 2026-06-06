@@ -3319,6 +3319,5 @@ Fund.   Strings  Conds   Loops   Functions    Lists   DSA → OOP → AI/ML
 
 ---
 
-*Document crafted with ❤️ for Python learners on the path to AI/ML Engineering*  
-*Series: Python Zero to AI/ML Engineer | NIELIT CSE-AI/ML Track*  
-*GitHub Ready · Open Source · 20,000+ Words*
+**Document crafted with ❤️ by Baghel**  
+  
