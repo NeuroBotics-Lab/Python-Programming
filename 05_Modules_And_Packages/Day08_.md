@@ -1,7 +1,7 @@
 # 🐍 Python Mastery — Day 08
 ## Modules · Packages · pip · Virtual Environments · Professional Project Architecture
 
-> **Series:** Python Zero → Hero | **Day:** 08 of 30  
+> **Day:** 08 of 30  
 > **Author:** Senior Python Developer & AI Engineer  
 > **Prerequisites:** Day01–Day07 Complete  
 > **Estimated Read + Practice Time:** 12–15 Hours
