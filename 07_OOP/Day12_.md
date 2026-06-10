@@ -3090,68 +3090,125 @@ graph TD
 
 **Inheritance:**
 21. What is inheritance?
+
 22. What keyword is used to inherit in Python?
+
 23. What is a parent class? What is a child class?
+
 24. What does `super()` do?
+
 25. What is single inheritance?
+
 26. What is multiple inheritance?
+
 27. What is multilevel inheritance?
+
 28. What is hierarchical inheritance?
+
 29. What is hybrid inheritance?
+
 30. How does Python handle multiple inheritance conflicts?
+
 31. What is MRO?
+
 32. How do you check the MRO of a class?
+
 33. What is the `__mro__` attribute?
+
 34. Write a `Dog` class that inherits from `Animal`.
+
 35. What happens if you don't call `super().__init__()` in a child class?
+
 36. Can a child class override a parent method?
+
 37. Can a child class call the parent's overridden method?
+
 38. What is method overriding?
+
 39. What is the difference between overriding and overloading?
+
 40. Does Python support method overloading natively?
 
 **Polymorphism:**
 41. What is polymorphism?
+
 42. What is duck typing?
+
 43. What is runtime polymorphism?
+
 44. What is operator overloading?
+
 45. What method is called when you use `+` on custom objects?
+
 46. What method is called when you use `==`?
+
 47. What is `__str__` used for?
+
 48. What is `__repr__` used for?
+
 49. What is the difference between `__str__` and `__repr__`?
+
 50. Write a `Vector` class with `+` and `-` support.
+
 51. What is `__len__` used for?
+
 52. What is `__contains__` used for?
+
 53. What is `__getitem__`?
+
 54. What is `__setitem__`?
+
 55. What is `__call__`?
+
 56. Write a class that behaves like a function using `__call__`.
+
 57. What is `__bool__`?
+
 58. When does Python call `__bool__`?
+
 59. What is `__iter__`?
+
 60. What is `__next__`?
 
 **Abstraction:**
 61. What is abstraction in Python?
+
 62. What module provides ABC in Python?
+
 63. What is an abstract class?
+
 64. Can you instantiate an abstract class?
+
 65. What is an abstract method?
+
 66. How do you declare an abstract method?
+
 67. What decorator marks a method as abstract?
+
 68. What happens if a child doesn't implement all abstract methods?
+
 69. Can an abstract class have concrete methods?
+
 70. Write an abstract class `Shape` with abstract method `area()`.
+
 71. What is the difference between an abstract class and an interface?
+
 72. Can abstract classes have `__init__`?
+
 73. What is an abstract property?
+
 74. How do you create an abstract class attribute?
+
 75. What is the benefit of using ABCs?
+
 76. Write a `PaymentGateway` ABC.
+
 77. Can you call a concrete method in an abstract class from a child?
+
 78. What is the `ABCMeta` metaclass?
+
 79. Is `ABC` a metaclass or a class?
+
 80. What happens when ABC.register() is used?
 
 > *(Questions 81–250 follow the same pattern covering: Composition, SOLID, Design Patterns, Mixed topics, Code analysis questions, debugging questions, best practice questions)*
